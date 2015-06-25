@@ -303,8 +303,8 @@ iter shouldBe <span class="stQuotedString">'traversableAgain</span>
 </pre></p>
 
 <p>Given this code, ScalaTest will use reflection to look on the object referenced from
-<code>emptySet</code> for a method that takes no parameters and results in <code>Boolean</code>,
-with either the name <code>empty</code> or <code>isEmpty</code>. If found, it will invoke
+<code>iter</code> for a method that takes no parameters and results in <code>Boolean</code>,
+with either the name <code>traversableAgain</code> or <code>isTraversableAgain</code>. If found, it will invoke
 that method. If the method returns <code>true</code>, execution will continue. But if it returns
 <code>false</code>, a <code>TestFailedException</code> will be thrown that will contain a detail message, such as:</p>
 
